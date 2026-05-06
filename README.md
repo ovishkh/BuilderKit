@@ -1,26 +1,36 @@
 
 # Builder Kit
 
-Builder Kit is a high-performance repository of curated system prompts and UI modules for building AI SaaS products. It provides a standardized way to manage prompts for Claude, GPT, and other models, alongside reusable frontend components. Use Builder Kit to accelerate your development, learn from real-world examples, and assemble high-converting SaaS flows with proven patterns.
+Builder Kit is a full-stack repository of curated system prompts, UI modules, and guides for building AI SaaS products. It provides a standardized way to manage prompts for Claude, GPT, and other models, alongside reusable frontend components and architectural patterns. Use Builder Kit to accelerate your development, learn from real-world examples, and assemble high-converting SaaS flows with proven patterns.
 
 ---
 
 ## Features
-- Visual editor for building AI SaaS landing pages and flows
-- Prebuilt modules: CTA, Hero, Features, Testimonials, Pricing, and more
-- Customizable UI components and themes
-- Analytics-ready event hooks and A/B testing support
-- Easy integration with your backend or authentication system
-- Responsive design and mobile optimization
-- One-click preview and deploy
+- **Visual & Code-Based**: Prebuilt modules and documentation for rapid development.
+- **SaaS Foundation**: Pre-configured patterns for Database (Prisma) and Authentication (Clerk/NextAuth).
+- **Claude Skills**: Optimized system prompts and instructions for building with AI.
+- **Modern Tech Stack**: HTML/JS, Tailwind CSS, and React-focused patterns.
+- **Integrations**: Stripe for payments, PostHog for analytics, and Resend for email.
+- **Modular UI**: Reusable components for CTA, Hero, Features, Testimonials, and more.
+- **Analytics & Testing**: Event hooks and A/B testing support built-in.
+
+---
+
+## Modules
+- [Database](Database/Database.md): SaaS-ready schemas and database provider guides.
+- [Authentication](Authentication/Authentication.md): Modern auth patterns using Clerk and NextAuth.js.
+- [Claude Skills](Claude-Skills/ClaudeSkills.md): Specialized prompts and instructions to boost AI coding productivity.
+- [SaaS Features](Marketing/Marketing.md): Stripe, Analytics, and Email integration guides.
+- [CTA Module](CTA/CTA.md): Reusable call-to-action components for driving conversions.
+- [Landing Page Guide](Landing%20Page/landing_page.md): Best practices for building high-converting landing pages.
 
 ---
 
 ## Installation
 1. Clone this repository:
 	```bash
-	git clone https://github.com/your-org/builder-kit.git
-	cd builder-kit
+	git clone git@github.com:ovishkh/BuilderKit.git
+	cd BuilderKit
 	```
 2. Install dependencies (if applicable):
 	```bash
@@ -32,25 +42,12 @@ Builder Kit is a high-performance repository of curated system prompts and UI mo
 ---
 
 ## Usage
-1. **Start the Builder UI:**
-	```bash
-	npm run dev
-	# or
-	yarn dev
-	```
+1. **Explore the Modules:**
+   Browse the folders to find system prompts, database schemas, and UI patterns.
 2. **Build your landing page:**
-	- Drag and drop components (Hero, CTA, Features, etc.)
-	- Edit text, images, and styles in the visual editor
-	- Integrate CTAs for signup, demo, or contact actions
-3. **Preview and deploy:**
-	- Use the preview button to test responsiveness
-	- Deploy with one click or export code for your stack
-
----
-
-## Modules
-- [CTA Module](CTA/CTA.md): Reusable call-to-action components for driving conversions
-- [Landing Page Guide](CTA/landing_page.md): Step-by-step instructions and best practices for building high-converting landing pages
+   Follow the [Landing Page Guide](Landing%20Page/landing_page.md) to assemble your frontend.
+3. **Integrate SaaS Features:**
+   Use the Authentication and Database modules to set up your backend.
 
 ---
 
@@ -70,7 +67,7 @@ Here’s a sample landing page structure using Builder Kit components:
 ---
 
 ## Contributing
-Contributions are welcome! Please read our [Contributing Guide](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md) before getting started.
+Contributions are welcome! Please read our [Contributing Guide](.github/CONTRIBUTING.md) if available, or simply open issues and pull requests for improvements, bug fixes, or new features.
 
 ---
 
