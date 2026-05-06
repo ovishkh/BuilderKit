@@ -19,8 +19,9 @@ Builder Kit is a full-stack repository of curated system prompts, UI modules, an
 ## Modules
 - [Database](Database/Database.md): SaaS-ready schemas and database provider guides.
 - [Authentication](Authentication/Authentication.md): Modern auth patterns using Clerk and NextAuth.js.
-- [Claude Skills](Claude-Skills/ClaudeSkills.md): Specialized prompts and instructions to boost AI coding productivity.
-- [SaaS Features](Marketing/Marketing.md): Stripe, Analytics, and Email integration guides.
+- [Claude Skills](Claude%20Skills/ClaudeSkills.md): Specialized prompts and instructions to boost AI coding productivity.
+- [SaaS Features](SaaS%20Features/SaaSFeatures.md): Stripe, Analytics, and Email integration guides.
+- [UI Components](Components/): Premium React + Tailwind components (Hero, Pricing, etc.).
 - [CTA Module](CTA/CTA.md): Reusable call-to-action components for driving conversions.
 - [Landing Page Guide](Landing%20Page/landing_page.md): Best practices for building high-converting landing pages.
 

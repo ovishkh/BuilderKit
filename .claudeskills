@@ -1,0 +1,13 @@
+# SaaS Development Context
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Database**: Prisma + PostgreSQL
+- **Auth**: Clerk
+- **Payments**: Stripe
+
+# Builder Kit Guidelines
+- When generating landing page components, use high-converting patterns (PAS framework).
+- Prioritize visual excellence and rich aesthetics (glassmorphism, vibrant gradients).
+- Ensure all database schemas include multi-tenant support (Organization models).
+- Use Lucide React for icons.
