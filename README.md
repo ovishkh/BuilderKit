@@ -17,13 +17,20 @@ Builder Kit is a full-stack repository of curated system prompts, UI modules, an
 ---
 
 ## Modules
-- [Database](Database/Database.md): SaaS-ready schemas and database provider guides.
-- [Authentication](Authentication/Authentication.md): Modern auth patterns using Clerk and NextAuth.js.
-- [Claude Skills](Claude%20Skills/ClaudeSkills.md): Specialized prompts and instructions to boost AI coding productivity.
-- [SaaS Features](SaaS%20Features/SaaSFeatures.md): Stripe, Analytics, and Email integration guides.
+
+### SaaS Core
+- [Database](SaaS/Database/Database.md): SaaS-ready schemas and database provider guides.
+- [Authentication](SaaS/Authentication/Authentication.md): Modern auth patterns using Clerk and NextAuth.js.
+- [Claude Skills](SaaS/Claude-Skills/ClaudeSkills.md): Specialized prompts and instructions for AI-first development.
+- [Payments](SaaS/Payments/Stripe.md): Stripe integration and subscription management.
+- [Analytics](SaaS/Analytics/PostHog.md): Product tracking and session recordings.
+- [Email](SaaS/Email/Resend.md): Transactional email patterns.
+- [Error Tracking](SaaS/Error-Tracking/Sentry.md): Real-time monitoring and debugging.
+
+### UI & UX
 - [UI Components](Components/): Premium React + Tailwind components (Hero, Pricing, etc.).
 - [CTA Module](CTA/CTA.md): Reusable call-to-action components for driving conversions.
-- [Landing Page Guide](Landing%20Page/landing_page.md): Best practices for building high-converting landing pages.
+- [Landing Page Guide](Landing%20Page/landing_page.md): Best practices for high-converting landing pages.
 
 ---
 
